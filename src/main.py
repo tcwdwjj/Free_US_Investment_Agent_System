@@ -69,7 +69,7 @@ app = workflow.compile()
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description='Run the hedge fund trading system')
-    parser.add_argument('--ticker', type=str, required=True,
+    parser.add_argument('--ticker', type=str, required=False, default='PLTR',
                         help='Stock ticker symbol')
     parser.add_argument('--start-date', type=str,
                         help='Start date (YYYY-MM-DD). Defaults to 3 months before end date')

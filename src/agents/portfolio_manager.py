@@ -28,7 +28,7 @@ def portfolio_management_agent(state: AgentState):
         "role": "system",
         "content": """You are a portfolio manager making final trading decisions.
             Your job is to make a trading decision based on the team's analysis while considering
-            risk management guidelines.
+            risk management guidelines,the final result please use chinese.
 
             RISK MANAGEMENT GUIDELINES:
             - Try to stay within max_position_size from risk management when possible
